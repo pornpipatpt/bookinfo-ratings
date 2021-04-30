@@ -19,7 +19,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/pornpipatpt/bookinfo_ratings:dev
+          tags: ghcr.io/pornpipatpt/bookinfo-ratings:dev
   deploy:
     needs: build
     runs-on: ubuntu-20.04
